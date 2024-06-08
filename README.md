@@ -24,4 +24,6 @@
 - [Thaumcraft](https://bdcraft.net/community/viewtopic.php?t=1114)
 - [Actually Additions](https://bdcraft.net/community/viewtopic.php?t=6136)
 - [Biomes O' Plenty](https://bdcraft.net/community/viewtopic.php?t=1098)
-- [Quark](https://bdcraft.net/community/viewtopic.php?t=5946)W
+- [Quark](https://bdcraft.net/community/viewtopic.php?t=5946)
+  
+实际测试下来发现Pam's HarvestCraft会和其余材质包冲突
