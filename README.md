@@ -27,3 +27,14 @@
 - [Quark](https://bdcraft.net/community/viewtopic.php?t=5946)
   
 实际测试下来发现Pam's HarvestCraft会和其余材质包冲突
+
+
+# 添加的mod
+- Compact Machines 更多空间/压缩空间
+- Wireless Crafting Terminal 无线合成终端
+- p455w0rd's Library 无线合成终端的前置
+- AE2 Wireless Terminal Library 无线合成终端的前置
+- Akashic Tome 阿卡什宝典
+- Thaumic Energistics Extended Life 神秘能源延续版
+- Lazy AE2 懒人AE2
+- LibNine 懒人AE2的前置
