@@ -38,3 +38,9 @@
 - Thaumic Energistics Extended Life 神秘能源延续版
 - Lazy AE2 懒人AE2
 - LibNine 懒人AE2的前置
+
+
+# 第三次更新
+## 删除mods
+- Compact Machines 更多空间/压缩空间 -- 没用
+- theoneprobe  Mekanism通用机械的可选前置mod -- 和wawla重合
