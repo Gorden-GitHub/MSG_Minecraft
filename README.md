@@ -85,7 +85,41 @@ location = "noohub.ru"
 ```
 curl -O http://archive.ubuntu.com/ubuntu/pool/universe/g/golang-github-containernetworking-plugins/containernetworking-plugins_1.1.1+ds1-3build1_amd64.deb
 
-dpkg -i containernetworking-plugins_1.1.1+ds1-3build1_amd64.deb
+dpkg -i container networking-plugins_1.1.1+ds1-3build1_amd64.deb
 ```
 
 ic2 沉浸工程 rc bc 
+
+## 20240702更新：mods_server/memorycleaner-1.4
+https://www.curseforge.com/minecraft/mc-mods/memory-cleaner-mod
+
+作者提示
+>==IMPORTANT:
+>    THIS MOD IS NOT FOR EVERYONE!
+>    Only use this if you are experiencing lag caused by high RAM usage (Which usually happens on very large modpacks) or experiencing crashes caused by OutOfMemoryError.
+>
+>    Otherwise this mod will negatively affect your game experience, because explicit gc takes time and it brings no benefit if your RAM is abundant.
+>
+>    For best experience I recommend using the suggested JVM arguments, see below.==
+>    CLIENT ONLY MOD
+>
+>This mod automatically calls System.gc() to free up your memory. Due to the fact that explicit gc can freeze your game for a short period, the mod watches the player movement and starts to clean up your RAM after the player stays idle for a while.
+>
+>The memory cleaning process also starts when your RAM usage goes above a certain percent (configurable) or after a long period if none of the above conditions are met (also configurable).
+>
+>Also you can use the /cleanmemory command to free up your RAM immediately.
+>
+>More options can be seen in the in-game mod settings.
+>
+>Note that do NOT include -XX:+DisableExplicitGC in your JVM arguments because the mod will not function at all with it.
+>
+> 
+>
+>If you don't want your game to freeze when cleaning memory, you should try these JVM arguments: (-Xmx and -Xms values are omitted)
+
+```
+-XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=4 -Dsun.rmi.dgc.server.gcInterval=1800000
+-XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true
+-Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods
+```
+>This enables concurrent explicit gc so that your game will not freeze during memory cleanings. The JVM arguments options should be found in your Minecraft launcher.
