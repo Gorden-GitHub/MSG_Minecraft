@@ -44,3 +44,48 @@
 ## 删除mods
 - Compact Machines 更多空间/压缩空间 -- 没用
 - theoneprobe  Mekanism通用机械的可选前置mod -- 和wawla重合
+
+# 服务器启动指令
+`java -Xmx7G -jar [.jar] nogui`
+
+# 服务器安装[podman](https://podman.io/docs/installation#linux-distributions)
+```
+# Ubuntu 20.10 and newer
+sudo apt-get update
+sudo apt-get -y install podman
+```
+# 服务器安装[Podman Compose](https://github.com/containers/podman-compose)
+```
+apt-get -y install python3-pip
+pip3 install podman-compose
+```
+
+## 修改源
+Podman 配置文件（路径：/etc/containers/registries.conf）
+```
+# unqualified-search-registries = ["registry.fedoraproject.org", "registry.access.redhat.com", "registry.redhat.io", "docker.io"]
+unqualified-search-registries = ["docker.io"]
+
+[[registry]]
+prefix = "docker.io"
+location = "docker.m.daocloud.io"
+[[registry.mirror]]
+location = "docker.jianmuhub.com"
+[[registry.mirror]]
+location = "dockerhub.timeweb.cloud"
+[[registry.mirror]]
+location = "dockerhub1.beget.com"
+[[registry.mirror]]
+location = "huecker.io"
+[[registry.mirror]]
+location = "noohub.ru"
+```
+
+## bug
+```
+curl -O http://archive.ubuntu.com/ubuntu/pool/universe/g/golang-github-containernetworking-plugins/containernetworking-plugins_1.1.1+ds1-3build1_amd64.deb
+
+dpkg -i containernetworking-plugins_1.1.1+ds1-3build1_amd64.deb
+```
+
+ic2 沉浸工程 rc bc 

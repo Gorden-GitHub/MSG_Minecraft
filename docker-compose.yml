@@ -1,0 +1,39 @@
+# Forge with Sponge API support. THIS REQUIRES DOWNLOADING SPONGEFORGE.
+# Place the SpongeForge jar file in /data/mods. Other Forge mods go here as well.
+# Place Sponge mods in /data/mods/plugins. Yes, this is a directory inside the Forge mod directory. Do NOT use /data/plugins.
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:java8
+    container_name: "MCServer"
+    ports:
+      - "25565:25565"
+    volumes:
+      - "/root/MCServer/mc:/data" # 主要数据，包括存档数据等
+    environment:
+      MOTD : "MSG Minecraft Server sponsored by Whaaat"
+      DIFFICULTY : "normal"
+      ENABLE_RCON : "false"
+      SERVER_NAME: "MSGMCServer"
+      EULA: "TRUE"
+      VERSION: "1.12.2" # (Ensure this is compatbile with the version of SpongeForge you are using!)
+      TYPE: "FORGE"
+      FORGE_VERSION: "RECOMMENDED"
+      CONSOLE: "false"
+      INIT_MEMORY: 1024M
+      MAX_MEMORY: 3072M # 内存根据实际需要修改
+      OVERRIDE_SERVER_PROPERTIES: "true" 
+      SNOOPER_ENABLED: "false" # 统计数据 If set to false, the server will not send data to snoop.minecraft.net server.
+      VIEW_DISTANCE: 8 #加载区块范围，默认 10，建议 4~8
+      PVP: "true"
+      ONLINE_MODE: "FALSE" #正版校验开关
+      ALLOW_FLIGHT: "true"
+      USE_AIKAR_FLAGS: "false"
+      NETWORK_COMPRESSION_THRESHOLD: 512
+      ENABLE_AUTOPAUSE: "TRUE"
+      MAX_TICK_TIME: "-1"
+    restart: unless-stopped
+
+
+volumes:
+  mc:
