@@ -126,5 +126,3 @@ For best experience I recommend using the suggested JVM arguments, see below.
 >-Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods
 >```
 >This enables concurrent explicit gc so that your game will not freeze during memory cleanings. The JVM arguments options should be found in your Minecraft launcher.
-
-test
