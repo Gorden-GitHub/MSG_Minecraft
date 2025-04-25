@@ -1,14 +1,14 @@
 # 已安装的MOD列表
 - **实用拓展 (Actually Additions)**  
   [MC百科](http://mcmod.cn/class/550.html)  
-  📌 支持 1.21.1
+  支持 1.21.1
 
 - **应用能源2 (Applied Energistics 2)**  
   [MC百科](https://www.mcmod.cn/class/260.html)  
-  📌 支持 1.21.1  
+  支持 1.21.1  
   ↳ **拓展模组**  
   - 懒人AE2 (Lazy AE2)  
-    [MC百科](https://www.mcmod.cn/class/1799.html) ❌ 不支持1.21.1  
+    [MC百科](https://www.mcmod.cn/class/1799.html) 不支持1.21.1  
     ↳ **前置**  
     - LibNine [MC百科](https://www.mcmod.cn/class/1800.html)
   - 无线合成终端 (Wireless Crafting Terminal)  
@@ -144,3 +144,30 @@
 - **夸克 (Quark)**  
   [MC百科](https://www.mcmod.cn/class/527.html)  
   ✅ 最新支持版本：1.20.1（1.21.1适配中）
+
+- **建筑 BuildCraft**  
+  [MC百科](https://www.mcmod.cn/class/4.html)  
+  不支持1.21.1 还在更新
+
+- **更多实用设备2 Extra Utilities 2**  
+  [MC百科](https://www.mcmod.cn/class/616.html)  
+  停更 只支持到1.12.2
+
+- **Wawla高亮显示 What Are We Looking At**  
+  [MC百科](https://www.mcmod.cn/class/1201.html)  
+  不支持1.21.1 停更
+  - **[Hwyla] Here's What You're Looking At**  
+    [MC百科](https://www.mcmod.cn/class/668.html)  
+    不支持1.21.1 还在更新
+
+- **工业时代2 Industrial Craft 2**  
+  [MC百科](https://www.mcmod.cn/class/2.html)  
+  停更 
+
+- **潘马斯农场2 Pam's HarvestCraft 2**  
+  [MC百科](https://www.mcmod.cn/class/2372.html)  
+  停更 只支持到1.12.2
+
+- **更多实用设备2 Extra Utilities 2**  
+  [MC百科](https://www.mcmod.cn/class/616.html)  
+  停更 只支持到1.12.2
