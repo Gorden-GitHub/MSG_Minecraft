@@ -107,3 +107,15 @@
 
 - **万用皮肤补丁 CustomSkinLoader** （客户端需装, 服务端无效）  
   [MC百科](https://www.mcmod.cn/class/883.html)
+
+- **Client Sort** （客户端需装, 服务端无效）  
+  [MC百科](https://www.mcmod.cn/class/15389.html)
+
+- **更好的模组菜单 Better Modlist** （客户端需装, 服务端无效）  
+  [MC百科](https://www.mcmod.cn/class/16643.html)
+
+- **JEI药水效果 Just Enough Effect Descriptions** （客户端需装, 服务端可选）  
+  [MC百科](https://www.mcmod.cn/class/5460.html)
+
+- **JEI繁殖信息 Just Enough Breeding** （客户端需装, 服务端无效）  
+  [MC百科](https://www.mcmod.cn/class/11660.html)
