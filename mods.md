@@ -93,3 +93,14 @@
 
 - **鼠标手势 Mouse Tweak**  (客户端需装, 服务端无效)  
   [MC百科](https://www.mcmod.cn/class/1162.html)
+
+- **Iris Shaders**  (客户端需装, 服务端无效)  
+  [MC百科](https://www.mcmod.cn/class/3697.html)
+  - **钠Sodium**  (客户端需装, 服务端无效)  
+  [MC百科](https://www.mcmod.cn/class/2785.html)
+
+- **旅行者背包 Traveler's Backpackk**  
+  [MC百科](https://www.mcmod.cn/class/1732.html)
+
+- **苹果皮 AppleSkin** （客户端需装, 服务端可选）  
+  [MC百科](https://www.mcmod.cn/class/744.html)
