@@ -104,3 +104,6 @@
 
 - **苹果皮 AppleSkin** （客户端需装, 服务端可选）  
   [MC百科](https://www.mcmod.cn/class/744.html)
+
+- **万用皮肤补丁 CustomSkinLoader** （客户端需装, 服务端无效）  
+  [MC百科](https://www.mcmod.cn/class/883.html)
