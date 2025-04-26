@@ -88,5 +88,8 @@
 - **玉 🔍Jade 🔍**  
   [MC百科](https://www.mcmod.cn/class/3482.html)
 
-- **帕秋莉手册Patchouli**  
-  [MC百科]https://www.mcmod.cn/class/1388.html)
+- **帕秋莉手册 Patchouli**  
+  [MC百科](https://www.mcmod.cn/class/1388.html)
+
+- **鼠标手势 Mouse Tweak**  (客户端需装, 服务端无效)
+  [MC百科](https://www.mcmod.cn/class/1162.html)
